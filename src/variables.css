@@ -1,0 +1,11 @@
+:root {
+    --primary: hsl(0, 0%, 7%);
+
+    --secodary: hsl(0, 0%, 100%);
+
+    --tertiary-light: hsl(254, 88%, 90%);
+    --tertiary-dark: hsl(256, 67%, 59%);
+    
+    --quaternary-light: hsl(31, 66%, 93%);
+    --quaternary-dark: hsl(39, 100%, 71%);
+}

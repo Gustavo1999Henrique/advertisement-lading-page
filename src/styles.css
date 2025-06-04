@@ -1,3 +1,103 @@
 html{
     font-family: "DM Sans", sans-serif;
+    font-size: 62.5%;
+}
+
+/* GRID */
+
+.container{
+    display: grid;
+    grid-template-areas: "post valuation valuation schedule-social-media"
+                         "post improved-managing consistent-posting-schedule schedule-social-media"
+                         "post audience-growth non-stop-content non-stop-content";
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto;
+
+    padding: 140px 160px;
+}
+
+/* POST */
+
+.post{
+    grid-area: post;
+}
+
+/* VALUATION */
+
+.valuation{
+    grid-area: valuation;
+}
+
+/* SCHEDULE-SOCIAL-MEDIA */
+
+.schedule-social-medial{
+    grid-area: schedule-social-media;
+}
+
+/* HELP-TO-WRITE */
+
+.help-to-write{
+    grid-area: help-to-write;
+}
+
+/* IMPROVED-MANAGING */
+
+.improved-managing{
+    grid-area: improved-managing;
+}
+
+/* CONSISTENT-POSTING-SCHEDULE */
+
+.consistent-posting-schedule{
+    grid-area: consistent-posting-schedule;
+}
+
+/* AUDIENCE-GROWTH */
+
+.audience-growth{
+    grid-area: audience-growth;
+}
+
+/* NON-STOP-CONTENT */
+
+.non-stop-content{
+    grid-area: non-stop-content;
+}
+
+/* END GRID */
+
+.post{
+    
+}
+
+.post .create-post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    gap: 25px;
+    padding: 30px;
+    background-color: var(--quaternary-light);
+    width: 255px;
+    height: 420px;
+    border-radius: 3%;
+}
+
+.post .create-post h2{
+    font-size: 3.9rem;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: -2px;
+}
+
+.post .create-post span{
+    color: var(--tertiary-dark);
+    font-style: italic;
+}
+
+.post .create-post img{
+    width: 190px;
+    position: relative;
+    right: 3px;
 }

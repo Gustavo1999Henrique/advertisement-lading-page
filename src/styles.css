@@ -11,9 +11,10 @@ html{
     grid-template-areas: "post valuation valuation schedule-social-media"
                          "post improved-managing consistent-posting-schedule schedule-social-media"
                          "post audience-growth non-stop-content non-stop-content";
-    grid-template-columns: 255px auto auto auto;
-    grid-template-rows: auto auto auto;
-
+    grid-template-columns: 255px 1fr 1fr 200px;
+    grid-template-rows: auto auto auto 600px;
+    max-width: 1400px;
+    max-height: 1030px;
     padding: 140px 160px;
 }
 
@@ -31,7 +32,7 @@ html{
 
 /* SCHEDULE-SOCIAL-MEDIA */
 
-.schedule-social-medial{
+.schedule-social-media{
     grid-area: schedule-social-media;
 }
 
@@ -147,4 +148,52 @@ html{
     position: relative;
     top: -12px;
     left: -5px;
+}
+
+.schedule-social-media{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 257px;
+    height: 600px;
+    border-radius: 10px;
+    background: var(--tertiary-light) url('/src/images/illustration-schedule-posts.webp') no-repeat 33px 46%;
+    background-size: 350px 320px;
+}
+
+.schedule-social-media h2{
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 27px;
+    margin-bottom: 22px;
+    padding: 50px 30px;
+}
+
+.schedule-social-media p{
+    font-size: 1.8rem;
+    padding: 52px 32px;
+    line-height: 18px;
+}
+
+
+
+.improved-managing img{
+    width: 18px;
+    height: 30px;
+}
+
+.consistent-posting-schedule img{
+    width: 18px;
+    height: 30px;
+}
+
+.audience-growth img{
+    width: 18px;
+    height: 30px;
+}
+
+.non-stop-content img{
+    width: 18px;
+    height: 30px;
 }

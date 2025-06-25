@@ -1,6 +1,7 @@
 html{
     font-family: "DM Sans", sans-serif;
     font-size: 62.5%;
+    background-color: whitesmoke;
 }
 
 /* GRID */
@@ -11,8 +12,8 @@ html{
     grid-template-areas: "post valuation valuation schedule-social-media"
                          "post improved-managing consistent-posting-schedule schedule-social-media"
                          "post audience-growth non-stop-content non-stop-content";
-    grid-template-columns: 255px 1fr 1fr 200px;
-    grid-template-rows: auto auto auto 600px;
+    grid-template-columns: 255px 1fr 1fr 257px;
+    grid-template-rows: 325px auto 600px;
     max-width: 1400px;
     max-height: 1030px;
     padding: 140px 160px;
@@ -83,9 +84,6 @@ html{
 }
 
 .post .create-post h2{
-    font-size: 3.9rem;
-    font-weight: 500;
-    line-height: 35px;
     letter-spacing: -2px;
 }
 
@@ -111,7 +109,7 @@ html{
     border-radius: 10px;
 }
 
-.post .help-to-write h2{
+.post .help-to-write h2, .post .create-post h2{
     font-size: 4rem;
     font-weight: 500;
     line-height: 35px;
@@ -125,6 +123,7 @@ html{
 .valuation{
     background-color: var(--tertiary-dark);
     width: 545px;
+    margin-right: 1px;
     height: 325px;
     border-radius: 10px;
     display: flex;
@@ -185,9 +184,6 @@ html{
 }
 
 .schedule-social-media h2{
-    font-size: 3rem;
-    font-weight: 500;
-    line-height: 27px;
     margin-bottom: 22px;
     padding: 50px 30px;
 }
@@ -198,9 +194,19 @@ html{
     line-height: 18px;
 }
 
-.improved-managing img{
-    width: 18px;
-    height: 30px;
+.improved-managing{
+    padding-top: 85px;
+    border: solid transparent 26px;
+    border-radius: 10px;
+    background: var(--secondary) url('images/illustration-multiple-platforms.webp') no-repeat;
+    background-size: 315px 67px;
+}
+
+.improved-managing h2, .schedule-social-media h2{
+    font-size: 3.2rem;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -1px;
 }
 
 .consistent-posting-schedule img{

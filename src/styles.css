@@ -202,16 +202,18 @@ html{
     background-size: 315px 67px;
 }
 
-.improved-managing h2, .schedule-social-media h2{
+.improved-managing h2, .schedule-social-media h2, .consistent-posting-schedule h2{
     font-size: 3.2rem;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: -1px;
 }
 
-.consistent-posting-schedule img{
-    width: 18px;
-    height: 30px;
+.consistent-posting-schedule{
+    background: var(--quaternary-light-2) url('images/illustration-consistent-schedule.webp') no-repeat 25px 153px;
+    background-size: 208px;
+    padding: 24px 25px;
+    border-radius: 10px;
 }
 
 .audience-growth img{

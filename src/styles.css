@@ -13,7 +13,7 @@ html{
                          "post improved-managing consistent-posting-schedule schedule-social-media"
                          "post audience-growth non-stop-content non-stop-content";
     grid-template-columns: 255px 1fr 1fr 257px;
-    grid-template-rows: 325px auto 600px;
+    grid-template-rows: 325px auto 247px;
     max-width: 1400px;
     max-height: 1030px;
     padding: 140px 160px;
@@ -214,11 +214,40 @@ html{
     background-size: 208px;
     padding: 24px 25px;
     border-radius: 10px;
+    height: 247px
+}
+
+.audience-growth{
+    background-color: var(--quaternary-light-1);
+    border-radius: 10px;
+}
+
+.audience-growth p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 17px;
+    margin-left: 25px;
+    margin-bottom: 35px;
+}
+
+.audience-growth span{
+    font-size: 6rem;
+    font-weight: 500;
+    position: relative;
+    top: 15px;
+    left: 57px;
+    letter-spacing: 1px;
+}
+
+.audience-growth span .element-1{
+    position: absolute;
+    top: -7px;
+    left: -35px;
 }
 
 .audience-growth img{
-    width: 18px;
-    height: 30px;
+    width: 180px;
+    margin-left: 25px;
 }
 
 .non-stop-content img{
